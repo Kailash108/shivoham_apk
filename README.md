@@ -1,4 +1,10 @@
 # Shivoham
+![Badge0](https://img.shields.io/badge/Version-1.4-green.svg)
+![Badge1](https://img.shields.io/badge/Platform-Android-green.svg)
+![Badge2](https://img.shields.io/badge/Rating-4.8-green.svg)<br>
+![Badge3](https://img.shields.io/badge/Build_Using-React_Native-green.svg)
+![Badge4](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)<br>
+
 An Android App Related To Lord Shiva built using React Native
 <blockquote>
 Welcome to the app Shivoham.<br>
@@ -6,11 +12,14 @@ Here, You will find the information about Dwadasa Jyothirlingas with a detailed 
 We have also mentioned Chardham and some famous temples/visiting spots which are related to Lord Shiva.<br>
 You can view the pre-recorded stream of Jyotirlingas.<br>
 </blockquote>
+
 <h5>
 Get it From Play Store:
 https://play.google.com/store/apps/details?id=com.msk.ABLS
 </h5>
+
 <h3>Installing My Project Onto Your Machine(Windows only)</h3>
+
 Note: If you have react-native installed on your machines, skip 1-4 points.<br>
 1. Firstly, Install Node and set it as environment variable.<br>
 2. Open command prompt and type this command <blockquote>npm install -g expo-cli</blockquote><br>
