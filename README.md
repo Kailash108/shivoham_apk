@@ -8,17 +8,15 @@
 
 An Android App Related To Lord Shiva.
 <h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
+
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" height="60" alt="Download Shivoham From Here" />](https://play.google.com/store/apps/details?id=com.msk.ABLS "Get it on Google Play Store")
+
 <blockquote>
 Welcome to the app Shivoham's repository.<br>
 In the app, You will find the information about Dwadasa Jyothirlingas with a detailed guide, HOW TO REACH?, TIMINGS, CONTACT.<br>
 I have also mentioned Chardham and some famous temples/visiting spots which are related to Lord Shiva.<br>
 You can view the pre-recorded stream of Jyotirlingas.<br>
 </blockquote>
-
-<h5>
-Get it From Google Play Store:
-https://play.google.com/store/apps/details?id=com.msk.ABLS
-</h5>
 
 <h3>Installing My Project Onto Your Machine(Windows only)</h3>
 
