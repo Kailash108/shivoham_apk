@@ -5,7 +5,7 @@
 ![Badge3](https://img.shields.io/badge/Build_Using-React_Native-green.svg)
 ![Badge4](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)<br>
 
-An Android App Related To Lord Shiva built using React Native
+An Android App Related To Lord Shiva.
 <blockquote>
 Welcome to the app Shivoham.<br>
 Here, You will find the information about Dwadasa Jyothirlingas with a detailed guide, HOW TO REACH?, TIMINGS, CONTACT.<br>
