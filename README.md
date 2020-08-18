@@ -16,7 +16,7 @@ You can view the pre-recorded stream of Jyotirlingas.<br>
 </blockquote>
 
 <h5>
-Get it From Play Store:
+Get it From Google Play Store:
 https://play.google.com/store/apps/details?id=com.msk.ABLS
 </h5>
 
