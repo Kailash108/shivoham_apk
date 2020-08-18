@@ -3,7 +3,8 @@
 ![Badge1](https://img.shields.io/badge/Platform-Android-green.svg)
 ![Badge2](https://img.shields.io/badge/Rating-4.8-green.svg)<br>
 ![Badge3](https://img.shields.io/badge/Build_Using-React_Native-green.svg)
-![Badge4](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)<br>
+![Badge4](https://img.shields.io/badge/Downloads-100+-green.svg)<br>
+![Badge5](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)
 
 An Android App Related To Lord Shiva.
 <h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
