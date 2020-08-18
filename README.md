@@ -18,7 +18,7 @@ I have also mentioned Chardham and some famous temples/visiting spots which are 
 You can view the pre-recorded stream of Jyotirlingas.<br>
 </blockquote>
 
-<h3>Installing My Project Onto Your Machine(Windows only)</h3>
+<h3>Installing My Project On Your Machine(Windows only)</h3>
 
 Note: If you have react-native installed on your machines, skip 1-4 points.<br>
 1. Firstly, Install Node and set it as environment variable.<br>
