@@ -6,6 +6,7 @@
 ![Badge4](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)<br>
 
 An Android App Related To Lord Shiva.
+<h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
 <blockquote>
 Welcome to the app Shivoham.<br>
 Here, You will find the information about Dwadasa Jyothirlingas with a detailed guide, HOW TO REACH?, TIMINGS, CONTACT.<br>
@@ -29,4 +30,4 @@ Note: If you have react-native installed on your machines, skip 1-4 points.<br>
 6. Once the download gets complete, copy all the files(1 folder and 2 files) to your project directory.<br>
 7. You need not install the dependencies which I have used in my app. Just replace 'package.json' file.<br>
 8. Once you have copied 1 folder and replaced two files(package.json and app.js), open command prompt from your project directory and type 'expo start'.
-<h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
+
