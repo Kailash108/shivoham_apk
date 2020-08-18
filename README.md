@@ -9,7 +9,7 @@
 An Android App Related To Lord Shiva.
 <h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
 <blockquote>
-Welcome to the app Shivoham.<br>
+Welcome to the app Shivoham's repository.<br>
 Here, You will find the information about Dwadasa Jyothirlingas with a detailed guide, HOW TO REACH?, TIMINGS, CONTACT.<br>
 We have also mentioned Chardham and some famous temples/visiting spots which are related to Lord Shiva.<br>
 You can view the pre-recorded stream of Jyotirlingas.<br>
