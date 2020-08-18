@@ -1,10 +1,10 @@
 # Shivoham
-![Badge0](https://img.shields.io/badge/Version-1.4-green.svg)
-![Badge1](https://img.shields.io/badge/Platform-Android-green.svg)
-![Badge2](https://img.shields.io/badge/Rating-4.8-green.svg)<br>
-![Badge3](https://img.shields.io/badge/Framework-React_Native-green.svg)
-![Badge4](https://img.shields.io/badge/Downloads-100+-green.svg)<br>
-![Badge5](https://img.shields.io/badge/Editor-Visual_Studio_Code-green.svg)
+![Badge0](https://img.shields.io/badge/Version-1.4-tree.svg)
+![Badge1](https://img.shields.io/badge/Platform-Android-tree.svg)
+![Badge2](https://img.shields.io/badge/Rating-4.8-tree.svg)<br>
+![Badge3](https://img.shields.io/badge/Framework-React_Native-tree.svg)
+![Badge4](https://img.shields.io/badge/Downloads-100+-tree.svg)<br>
+![Badge5](https://img.shields.io/badge/Editor-Visual_Studio_Code-tree.svg)
 
 An Android App Related To Lord Shiva.
 <h5>Made in 🇮🇳 with ❤️ on Lord Shiva</h5>
