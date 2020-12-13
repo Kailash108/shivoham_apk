@@ -1,5 +1,5 @@
 # Shivoham
-![Badge0](https://img.shields.io/badge/Version-1.4-tree.svg)
+![Badge0](https://img.shields.io/badge/Version-1.5-tree.svg)
 ![Badge1](https://img.shields.io/badge/Platform-Android-tree.svg)
 ![Badge2](https://img.shields.io/badge/Rating-4.8-tree.svg)<br>
 ![Badge3](https://img.shields.io/badge/Framework-React_Native-tree.svg)
@@ -27,6 +27,6 @@ Note: If you have react-native installed on your machines, skip 1-4 points.<br>
 4. After navigating to your project folder, for starting the development, type <blockquote>expo start</blockquote> and your project gets started with live development server.<br>
 5. Once everything works perfectly, download my project files(Navigation, app.js, package.json) which are on this repo.<br>
 6. Once the download gets complete, copy all the files(1 folder and 2 files) to your project directory.<br>
-7. You need not install the dependencies which I have used in my app. Just replace 'package.json' file.<br>
+7. You need not install the dependencies which I have used in my app. Just replace 'package.json' file and open cmd from your project directory and type <blockquote>npm install</blockquote>.<br>
 8. Once you have copied 1 folder and replaced two files(package.json and app.js), open command prompt from your project directory and type 'expo start'.
 
