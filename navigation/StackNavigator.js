@@ -1,6 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Home, Contact, nandi, } from './function'
+import { Home, Contact, nandi, } from './function';
+import {Bhasmam} from './function1';
 import Icon from 'react-native-vector-icons/Ionicons';  
 import { Alert, Linking} from 'react-native'
 import email from 'react-native-email'
@@ -87,4 +88,19 @@ const nandiHeader = ({navigation}) => {
   );
 };
 
-export { MainStackNavigator, ContactStackNavigator, nandiHeader };
+const bhasmam = ({navigation}) => {
+  return (
+    <Stack.Navigator  screenOptions={{headerTintColor: 'white', headerStyle: {backgroundColor: 'mediumslateblue'} }}>
+      <Stack.Screen name="Importance of Bhasmam" component={Bhasmam} options={{
+        headerTitleAlign: 'center',
+        headerLeft: () => (
+          <TouchableOpacity>
+            <Icon onPress={() => navigation.openDrawer()} name="md-menu" size={30} style={{paddingLeft: 10, color: 'white'}} />
+          </TouchableOpacity>
+        )
+      }} />
+    </Stack.Navigator>
+  );
+};
+
+export { MainStackNavigator, ContactStackNavigator, bhasmam, nandiHeader };

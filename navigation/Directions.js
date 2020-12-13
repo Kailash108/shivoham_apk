@@ -1,11 +1,12 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {View, Text, ScrollView, StyleSheet, Linking} from 'react-native';
+import {View, Text, ScrollView, StyleSheet, Linking, Button} from 'react-native';
 import Constants from 'expo-constants';
 import Icon from 'react-native-vector-icons/Ionicons';  
 import { two, three } from './function1'
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import * as Animatable from 'react-native-animatable';
 
 const styles = StyleSheet.create({
   places: {
@@ -34,21 +35,21 @@ function one({navigation}){
                 <Icon onPress={() => navigation.openDrawer()} name="md-menu" size={30} style={{paddingLeft: 10, color: 'white', alignSelf: 'center', marginTop: -25}} />
             </View>
             <View>
-              <Text style={styles.places}>Somnath:</Text>
-              <Text style={styles.time}>
+              <Animatable.Text animation="fadeInUp" style={styles.places}>Somnath:</Animatable.Text>
+              <Animatable.Text animation="fadeInDown" style={styles.time}>
                 Timing for Darshan : <Text style={styles.mark}>6.00am to 9.00pm</Text>{'\n'}
                 Timing for Aarti : <Text style={styles.mark}>7.00 am, 12.00 Noon and 7.00 pm</Text>{'\n'}
                 Jai Somnath Sound cum Light Show :<Text style={styles.mark}> 8.00 pm to 9.00 pm</Text>{'\n'}
-              </Text>
-              <Text>
+              </Animatable.Text>
+              <Animatable.Text delay={250} animation="fadeInLeft">
                 <Text style={{fontWeight: 'bold', fontSize: 20, textDecorationLine: 'underline'}}>How To Reach</Text>{'\n'}
                 Amdavad is connected by Rail, Road and Air with all the major destinations.{'\n\n'}
                 Veraval Somnath is connected with Amdavad to Rail and Road facilities.{'\n\n'} 
                 Somnath is at a distance of 465 km. from Amdavad.{'\n\n'}
                 At present Jet Airwais operates passenger flight from Bombay to Diu every day accept Thursday. 
                 Somnath is connected with Diu by road (95 km).
-              </Text>
-              <Text>
+              </Animatable.Text>
+              <Animatable.Text delay={500} animation="fadeInRight">
               <Text style={{fontWeight: 'bold', fontSize: 20, textDecorationLine: 'underline'}}>Contact{'\n'}</Text>
                 Shree Somnath Trust{'\n'}
                 C / 12-A, Shree Om Villa Apartment{'\n'}
@@ -58,12 +59,12 @@ function one({navigation}){
                 Phone and Fax No.: +91-79-22686335,{'\n'}
                 Phone No.: +91-79-22686442,{'\n'}
                 Email: somnathad1@sancharnet.in{'\n'}
-              </Text>
+              </Animatable.Text>
             </View>
         </View>
         <Text></Text>
 
-            <View>
+            <Animatable.View animation="fadeInUp">
               <Text style={styles.places}>Srisailam:</Text>
               <Text style={styles.time}>
                 Timing for Darshan : <Text style={styles.mark}>5.30am(Sun, Mon), 6.30am to 1.00pm[Morning]{'\n'}6.00pm to 10.00pm[Night]</Text>{'\n'}
@@ -89,10 +90,10 @@ function one({navigation}){
                   S.T.D CODE : 08524{'\n'}
                   Phone No. : 8333901351, 8333901352, 8333901353, 8333901354, 8333901355
               </Text>
-            </View>
+            </Animatable.View>
             <Text></Text>
 
-            <View>
+            <Animatable.View animation="fadeInLeft">
               <Text style={styles.places}>Ujjain:</Text>
               <Text style={styles.time}>
                 Timing for Darshan : <Text style={styles.mark}>4:00 AM - 10:00 PM</Text>{'\n'}
@@ -114,10 +115,10 @@ function one({navigation}){
               Dharmshala: 0734-2551714, 0734-2585873{'\n'}
               IT: 0734-2551295{'\n'}
               </Text>
-            </View>
+            </Animatable.View>
             <Text></Text>
 
-            <View>
+            <Animatable.View animation="fadeInDown">
               <Text style={styles.places}>Omkareshwar:</Text>
               <Text style={styles.time}>
                 Timing for Darshan : <Text style={styles.mark}>8am to 8pm[Might Differ]</Text>{'\n'}
@@ -136,7 +137,7 @@ function one({navigation}){
                   Shri Omkareshwar JyothirLinga, Khandwa.
                   Phone No. : +917280271228{'\n'}
               </Text>
-            </View>
+            </Animatable.View>
             <Text></Text>
 
             <View>
@@ -313,6 +314,72 @@ function one({navigation}){
     )
 }
 
+function four({navigation}){
+  return(
+    <ScrollView>
+      <View style={{marginTop: Constants.statusBarHeight}}>
+          <View style={{backgroundColor: 'mediumslateblue', height: 50}}>
+              <Text style={{color: 'white', marginTop: 15, fontSize: 25, paddingLeft: 10, fontSize: 15}}>Directions{'&'}Timings</Text>
+              <Icon onPress={() => navigation.openDrawer()} name="md-menu" size={30} style={{paddingLeft: 10, color: 'white', alignSelf: 'center', marginTop: -25}} />
+          </View>
+          <View>
+            <Animatable.Text style={{textAlign: 'center', fontSize: 25, textDecorationLine: 'underline'}}>Amararaamam</Animatable.Text>
+            <Animatable.Text animation="flipInX" style={{textAlign: 'center'}}>
+              {'\n'}
+              LOCATION: AMARAVATI{'\n'}
+              DISTRICT: GUNTUR{'\n'}
+              STATE: ANDHRA PRADESH{'\n'}
+              TEMPLE TIMINGS: 06:00 AM to 9.00 PM.{'\n\n'}
+              <Animatable.Text animation="flipInX" style={{backgroundColor: 'black', color: 'white'}} onPress={() => Linking.openURL('https://tms.ap.gov.in/AMRAVT/cnt/about-temple')} >Touch Here To Open The Website</Animatable.Text>
+            </Animatable.Text>
+          </View>
+          <View>
+            <Animatable.Text style={{textAlign: 'center', fontSize: 25, textDecorationLine: 'underline'}}>Draksharaamam</Animatable.Text>
+            <Animatable.Text animation="flipInY" style={{textAlign: 'center'}}>
+              {'\n'}
+              LOCATION: DRAKSHARAMA{'\n'}
+              DISTRICT: EAST GODAVARI{'\n'}
+              STATE: ANDHRA PRADESH{'\n'}
+              TEMPLE TIMINGS: 06:00AM TO 12:00PM, 03:00 PM TP 08:00PM.{'\n\n'}
+              <Animatable.Text animation="flipInY" style={{backgroundColor: 'black', color: 'white'}} onPress={() => Linking.openURL('https://tms.ap.gov.in/bmsdrm/cnt/about-temple')} >Touch Here To Open The Website</Animatable.Text>
+            </Animatable.Text>
+          </View>
+          <View>
+            <Animatable.Text style={{textAlign: 'center', fontSize: 25, textDecorationLine: 'underline'}}>Somaraamam</Animatable.Text>
+            <Animatable.Text animation="flipInX" style={{textAlign: 'center'}}>
+              {'\n'}
+              LOCATION: BHIMAVARAM{'\n'}
+              DISTRICT: WEST GODAVARI{'\n'}
+              STATE: ANDHRA PRADESH{'\n'}
+              TEMPLE TIMINGS: 05:00AM TO 11:00PM, 04.00 PM to 08.00 PM{'\n'}
+            </Animatable.Text>
+          </View>
+          <View>
+            <Animatable.Text style={{textAlign: 'center', fontSize: 25, textDecorationLine: 'underline'}}>Ksheeraraamam</Animatable.Text>
+            <Animatable.Text animation="flipInY" style={{textAlign: 'center'}}>
+              {'\n'}
+              LOCATION: PALAKOL{'\n'}
+              DISTRICT: WEST GODAVARI{'\n'}
+              STATE: ANDHRA PRADESH{'\n'}
+              TEMPLE TIMINGS: 05:30AM TO 11:30PM, 04:00 PM TP 08:30PM{'\n\n'}
+              <Animatable.Text animation="flipInY" style={{backgroundColor: 'black', color: 'white'}} onPress={() => Linking.openURL('https://tms.ap.gov.in/krlpkl/cnt/about-temple')} >Touch Here To Open The Website</Animatable.Text>
+            </Animatable.Text>
+          </View>
+          <View>
+            <Animatable.Text style={{textAlign: 'center', fontSize: 25, textDecorationLine: 'underline'}}>Bhimaraamam</Animatable.Text>
+            <Animatable.Text style={{textAlign: 'center'}}>
+              {'\n'}
+              LOCATION: SAMALKOTA{'\n'}
+              DISTRICT: EAST GODAVARI{'\n'}
+              STATE: ANDHRA PRADESH{'\n'}
+              TEMPLE TIMINGS: 06:00 AM to 12.00 PM, 04.00 PM to 08.00 PM{'\n\n'}
+            </Animatable.Text>
+          </View>
+      </View>
+    </ScrollView>
+  )
+}
+
 const Tab = createBottomTabNavigator();
 
 const DnT = () => {
@@ -348,6 +415,15 @@ const DnT = () => {
         tabBarIcon: ({color, size}) => (
           <TouchableOpacity>
             <MaterialCommunityIcons name="map-search" color={color} size={size} />
+          </TouchableOpacity>
+        )
+    }} />
+
+    <Tab.Screen name="PK" component={four} options={{
+        tabBarLabel: 'Pancharama',
+        tabBarIcon: ({color, size}) => (
+          <TouchableOpacity>
+            <MaterialCommunityIcons name="map-marker-path" color={color} size={size} />
           </TouchableOpacity>
         )
     }} />

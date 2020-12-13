@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { MainStackNavigator, ContactStackNavigator, nandiHeader } from './StackNavigator'
+import { MainStackNavigator, ContactStackNavigator, nandiHeader, bhasmam } from './StackNavigator'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Tab = createBottomTabNavigator();
@@ -42,6 +42,16 @@ const BottomTabNavigator = () => {
         </TouchableOpacity>
       )
     }} />
+
+    <Tab.Screen name="Fourth" component={bhasmam} options={{
+      tabBarLabel: 'Bhasmam',
+      tabBarIcon: ({color, size}) => (
+        <TouchableOpacity>
+          <MaterialCommunityIcons name="numeric-3-circle" color={color} size={size} />
+        </TouchableOpacity>
+      )
+    }} />
+
     </Tab.Navigator>
   );
 }

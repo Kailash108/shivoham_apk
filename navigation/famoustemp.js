@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { fourTemp, threeTemp }  from './tempinfo'
+import { fourTemp, threeTemp, fiveTemp }  from './tempinfo'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
@@ -31,6 +31,15 @@ const FTTabNavigator = () => {
         tabBarIcon: ({color, size}) => (
           <TouchableOpacity>
             <MaterialCommunityIcons name="alpha-b-box" color={color} size={size} />
+          </TouchableOpacity>
+        )
+    }} />
+
+    <Tab.Screen name="PK" component={fiveTemp} options={{
+        tabBarLabel: 'Pancharama Kshetras',
+        tabBarIcon: ({color, size}) => (
+          <TouchableOpacity>
+            <MaterialCommunityIcons name="alpha-c-box" color={color} size={size} />
           </TouchableOpacity>
         )
     }} />
