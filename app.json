@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Shivoham",
+    "slug": "lordshiva",
+    "version": "1.7",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.msk.ABLS",
+      "versionCode": 7
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.msk.ABLS"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Brings Most Of The Information Of Lord Shiva Under This App",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

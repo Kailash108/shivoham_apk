@@ -3,11 +3,31 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { Home, Contact, nandi, } from './function';
 import {Bhasmam} from './function1';
 import Icon from 'react-native-vector-icons/Ionicons';  
-import { Alert, Linking} from 'react-native'
+import { Alert, Linking, Share} from 'react-native'
 import email from 'react-native-email'
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 const Stack = createStackNavigator();
+
+const handleShare = async () => {
+  try {
+    const result = await Share.share({
+      message: 'Shivoham: An Android App Which Contains Information Of Lord Shiva\n\nDownload It From This Link\n\nhttps://play.google.com/store/apps/details?id=com.msk.ABLS',
+      title: 'Share The App',
+    });
+    if (result.action === Share.sharedAction) {
+      if (result.activityType) {
+        // shared with activity type of result.activityType
+      } else {
+        // shared
+      }
+    } else if (result.action === Share.dismissedAction) {
+      // dismissed
+    }
+  } catch (error) {
+    alert(error.message);
+  }
+};
 
 const handleEmail = () => {
   const to = ['srikarkailash09@outlook.com'] // string or array of email addresses
@@ -27,11 +47,11 @@ Alert.alert(
 4. If you have any suggestions or need some more content, send me an email.\n`,
   [
     {
-      text: "Share This App??",
-      onPress: () => Linking.openURL('https://play.google.com/store/apps/details?id=com.msk.ABLS'),
+      text: "Share This App",
+      onPress: (handleShare)
     },
     {
-      text: "Email??",
+      text: "Email",
       onPress: (handleEmail),
     },
     { text: "OK" }

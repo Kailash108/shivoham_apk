@@ -270,7 +270,7 @@ function Bhasmam(){
           </Animatable.Text>
 
           <View>
-             <Animatable.Image delay={500} animation="fadeInLeft" source={{uri: 'https://groceriesandveggies.in/wp-content/uploads/2017/05/vibuthi-25g.jpg'}} style={styles.images}/>
+             <Animatable.Image delay={500} animation="fadeInLeft" source={require('../assets/basmam.jpg')} style={styles.images}/>
           </View>
 
           <Animatable.View animation="fadeInRight"><Text style={{textAlign: 'center', color: 'white', textDecorationLine: 'underline', fontSize: 23}}>{'\n'}Other Words</Text></Animatable.View>
@@ -326,7 +326,7 @@ const fiveTemple = () => {
           In keeping with native belief the Shiva lingam at the temple was put in and established by the god Suryabhagavan (sun). Maha Shivaratri, Devi Navaratrulu, Karthika Masam, and Dhanurmasam square measure the most festivals celebrated at this temple.
         </Animatable.Text>
         <View>
-          <Image style={styles.images} source={{uri: 'https://lh3.googleusercontent.com/proxy/2m06-FYpFVm0ZpHculvnOIai44QicNuBxE9bs7N-mS5wwxTcCx8p7g4vi0onlRTvzIaxw58zYn2_R2AP23ZuwKzsoNJkH9SqR22NKXQ2QAfi_uRd09wAo-lrmfuLFGvhi3r1dPg'}} />
+          <Image style={styles.images} source={require('../assets/ls9.jpg')} />
         </View>
       </View>
 

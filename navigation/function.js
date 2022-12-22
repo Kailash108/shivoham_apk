@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     },
     padding: {
       marginTop: 20,
+      marginBottom:20,
     },
     text1: {
       color: 'white',
@@ -46,11 +47,11 @@ const styles = StyleSheet.create({
         <LinearGradient colors={['indigo', 'slateblue']}>
 
           <View>
-            <Animatable.Text delay={1500} animation="fadeInDown" style={{color: 'white', textAlign: 'center'}}>Version: [1.6]</Animatable.Text>
+            <Animatable.Text delay={1500} animation="fadeInDown" style={{color: 'white', textAlign: 'center'}}>Version: [1.7]</Animatable.Text>
           </View>
 
           <View style={{alignItems: 'center'}}>
-            <Animatable.Image delay={1000} animation="bounceIn" style={{height: 300, width: 250, marginTop: 10, borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://dz0qr9vdflcrm.cloudfront.net/wp-content/uploads/2017/08/lord-shiva.jpg'}} />
+            <Animatable.Image delay={1000} animation="bounceIn" style={{height: 300, width: 250, marginTop: 10, borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls1.jpg')} />
           
             <View>
               <Animatable.Text animation="swing" style={{color: 'gold', fontSize: 30}}>Mahadev</Animatable.Text>
@@ -239,7 +240,7 @@ function Home1(){
         <ScrollView>
           <LinearGradient colors = {['indigo', 'slateblue']}>
             <Animatable.View animation="flash" style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://somnath.org/Areas/Xpanel/Content/img/01c0ef4b-8.jpg'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls2.jpg')} />
                 <View style={{width: 200}}>
                   <TouchableOpacity>
                     <Button title="1. Somnath Temple Website" onPress={() => Linking.openURL('https://somnath.org')} />
@@ -248,7 +249,7 @@ function Home1(){
             </Animatable.View>
             <Text>{'\n\n'}</Text>
             <Animatable.View animation="fadeInUp" style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://www.organiser.org/Encyc/2019/9/12/2_03_28_09_Srisailam-Temple_1_H@@IGHT_359_W@@IDTH_640.jpg'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls3.png')} />
                 <View style={{width: 200}}>
                   <TouchableOpacity>
                     <Button title="2. Srisailam Temple Website" onPress={() => Linking.openURL('http://www.srisailamonline.com/')} />
@@ -257,7 +258,7 @@ function Home1(){
             </Animatable.View>
             <Text>{'\n\n'}</Text>
             <Animatable.View animation="fadeInDown" style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center',  borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://5.imimg.com/data5/DL/LB/TA/ANDROID-26492615/product-jpeg-500x500.jpg'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center',  borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls4.jpg')} />
                 <View style={{width: 200}}>
                     <TouchableOpacity>
                       <Button title="3. Ujjain Temple Website" onPress={() => Linking.openURL('http://dic.mp.nic.in/ujjain/mahakal/default.aspx')} />
@@ -266,7 +267,7 @@ function Home1(){
             </Animatable.View>
             <Text>{'\n\n'}</Text>
             <View style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center',  borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://www.oyorooms.com/travel-guide/wp-content/uploads/2020/01/omkareshwar-cityscape-dusk.jpg'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center',  borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls5.jpg')} />
                 <View style={{width: 200}}>
                     <TouchableOpacity>
                       <Button title="4. Omkareshwar Temple Website" onPress={() => Linking.openURL('https://shriomkareshwar.org/')} />
@@ -275,7 +276,7 @@ function Home1(){
             </View>
             <Text>{'\n\n'}</Text>
             <View style={{alignItems: 'center'}}> 
-                <Image style={{height: 400, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://i.pinimg.com/originals/12/b3/f5/12b3f51d60f63bb566d5b2a5e9526f64.jpg'}} />
+                <Image style={{height: 400, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls6.jpg')} />
                 <View style={{width: 200}}>
                   <TouchableOpacity>
                     <Button title="5. Kedarnath Temple Website" onPress={() => Linking.openURL('https://badrinath-kedarnath.gov.in/')} />
@@ -284,7 +285,7 @@ function Home1(){
             </View>
             <Text>{'\n\n'}</Text>
             <View style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KMOyTeFyRhQ58QMIL-RzI3ear50tdNEHOg&usqp=CAU'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls7.jpg')} />
                 <View style={{width: 200}}>
                   <TouchableOpacity>
                     <Button title="6. Triambakeshwar Temple Website" onPress={() => Linking.openURL('https://nashik.gov.in/tourist-place/trimbakeshwar-temple/')} />
@@ -293,7 +294,7 @@ function Home1(){
             </View>
             <Text>{'\n\n'}</Text>
             <View style={{alignItems: 'center'}}> 
-                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={{uri: 'https://ffo.gov.in/uploads/location_photos/Bhimashankar-Jyotirlinga3-1.jpg'}} />
+                <Image style={{height: 300, width: 350, alignSelf: 'center', borderColor: 'gold', borderWidth: 1}} source={require('../assets/ls8.jpg')} />
                 <View style={{width: 200}}>
                   <TouchableOpacity>
                     <Button title="7. BhimaShankar Temple Website" onPress={() => Linking.openURL('https://bhimashankar.in/')} />
@@ -356,7 +357,7 @@ function Home1(){
         <View>
         <LinearGradient colors={['indigo', 'slateblue']}>
           <Animatable.View delay={250} animation="flash" style={{alignItems: 'center'}}>
-            <Image style={{height: 300, width: 250, marginTop: 30, borderWidth: 2, borderColor: 'gold', alignSelf: 'center'}} source={{uri: 'https://i.pinimg.com/474x/94/83/b4/9483b4a9b2acdc87943818cda1966586.jpg'}} />
+            <Image style={{height: 300, width: 250, marginTop: 30, borderWidth: 2, borderColor: 'gold', alignSelf: 'center'}} source={require('../assets/nandi.jpg')} />
             <Text style={{fontSize: 30, color: 'gold'}}>Nandi</Text>
           </Animatable.View>
           
@@ -384,7 +385,7 @@ function Home1(){
 
         <Animatable.View animation="pulse">
           <Text style={{color: 'white', alignSelf: 'center', fontSize: 25, textDecorationLine: 'underline'}}>{'>>'}Nandi Flag{'<<'}</Text>
-          <Image source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/NandiFlag.svg/330px-NandiFlag.svg.png'}} style={{height: 200, width: 300, marginTop: 30, borderWidth: 2, borderColor: 'gold', alignSelf: 'center'}} />
+          <Image source={require('../assets/nandiFlag.png')} style={{height: 200, width: 300, marginTop: 30, borderWidth: 2, borderColor: 'gold', alignSelf: 'center'}} />
           <Text style={{fontSize: 20, color: 'white'}}>{'\n'}It is also known as Vrishaba Flag, A flag which is recognized as 'THE FLAG OF SAIVISM' {'\n\n'}This Flag Has Been Designed By Ravindhra Sastry of Madurai, Tamil Nadu, in the guidance of Danapala S, a Sri Lankan.</Text>
         </Animatable.View>
         
